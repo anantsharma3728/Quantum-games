@@ -969,7 +969,7 @@ input, select, textarea {
 
 		ul.icons li {
 			display: inline-block;
-			padding: 0 1em 0 0;
+			padding: 0 3em 0 0;
 		}
 
 			ul.icons li:last-child {
@@ -977,11 +977,11 @@ input, select, textarea {
 			}
 
 			ul.icons li .icon {
-				color: #505051;
+				color: #42424b;
 			}
 
 				ul.icons li .icon:before {
-					font-size: 1.5em;
+					font-size: 3em;
 				}
 
 /* Table */
@@ -1469,7 +1469,7 @@ input, select, textarea {
 		-moz-user-select: none;
 		-ms-user-select: none;
 		-webkit-user-select: none;
-		background: #1f2224;
+		background: #20272b;
 		bottom: -1em;
 		height: 5em;
 		left: 0;
@@ -1489,7 +1489,7 @@ input, select, textarea {
 		}
 
 		#header h1 {
-			color: #a0a0a1;
+			color: #242494;
 			display: inline-block;
 			font-size: 1em;
 			line-height: 1;
@@ -1507,15 +1507,19 @@ input, select, textarea {
 				}
 
 		#header nav {
-			position: absolute;
-			right: 0;
+			position: fixed;
+			right: 45%;
 			top: 0;
+			font-size:x-large;
+			text-align: center;
+
 		}
 
 			#header nav > ul {
 				list-style: none;
 				margin: 0;
 				padding: 0;
+				
 			}
 
 				#header nav > ul > li {
@@ -1523,7 +1527,7 @@ input, select, textarea {
 					padding: 0;
 				}
 
-					#header nav > ul > li a {
+					#header nav > a {
 						-moz-transition: background-color 0.5s ease;
 						-webkit-transition: background-color 0.5s ease;
 						-ms-transition: background-color 0.5s ease;
@@ -1536,18 +1540,18 @@ input, select, textarea {
 						text-transform: uppercase;
 					}
 
-						#header nav > ul > li a.icon:before {
+						#header nav > a.icon:before {
 							color: #505051;
 							float: right;
 							margin-left: 0.75em;
 						}
 
-						#header nav > ul > li a:hover {
-							color: #ffffff !important;
+						#header nav >  a:hover {
+							color: #777777 !important;
 						}
 
-						#header nav > ul > li a.active {
-							background-color: #242629;
+						#header nav >  a.active {
+							background-color: #949694;
 						}
 
 	@media screen and (max-width: 736px) {
@@ -2042,7 +2046,8 @@ input, select, textarea {
 
 	#footer .copyright {
 		color: #505051;
-		font-size: 0.9em;
+		font-size: 9em;
+		text-align: center;
 	}
 
 		#footer .copyright a {
