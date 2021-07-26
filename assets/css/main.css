@@ -1510,7 +1510,7 @@ input, select, textarea {
 			position: fixed;
 			right: 45%;
 			top: 0;
-			font-size:x-large;
+			font-size: larger;
 			text-align: center;
 
 		}
