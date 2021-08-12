@@ -1,70 +1,97 @@
-
 .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url("images/vcvv-min.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("images/MonochromeSkaterPhotoCollage.png");
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 815px;
+  min-height: 785px;
 }
 
 .u-section-1 .u-text-1 {
-  font-size: 4.5rem;
   font-weight: 400;
   font-family: Montserrat, sans-serif;
+  text-shadow: 0 -2px 8px rgba(128,128,128,1);
+  background-image: none;
+  font-size: 4.5rem;
   width: 770px;
-  text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
-  margin: 208px auto 0;
+  margin: 222px auto 0;
 }
 
 .u-section-1 .u-btn-1 {
   border-style: solid;
+  align-self: center;
   font-weight: 700;
   text-transform: uppercase;
-  align-self: center;
-  margin: 53px auto 60px;
-  padding: 10px 63px;
+  background-image: none;
+  letter-spacing: normal;
+  margin: 43px 452px 60px auto;
+  padding: 18px 40px 19px;
 }
 
 @media (max-width: 1199px) {
-  .u-section-1 {
-    background-position: 50% 50%;
+  .u-section-1 .u-sheet-1 {
+    min-height: 774px;
   }
 
-  .u-section-1 .u-sheet-1 {
-    min-height: 672px;
+  .u-section-1 .u-text-1 {
+    font-weight: 700;
+    font-family: "Playfair Display", serif;
+    width: 717px;
+    margin-top: 175px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    letter-spacing: 0px;
+    margin-top: 46px;
+    margin-right: 334px;
+    padding: 15px 61px 15px 60px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 515px;
+    min-height: 693px;
   }
 
-  .u-section-1 .u-text-1 {
-    font-size: 4.25rem;
-    width: 720px;
+  .u-section-1 .u-btn-1 {
+    margin-top: 36px;
+    margin-right: auto;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 510px;
+    min-height: 621px;
   }
 
   .u-section-1 .u-text-1 {
-    font-size: 3rem;
-    width: 540px;
-    margin-top: 60px;
+    font-size: 3.75rem;
+    width: auto;
+    margin-top: 126px;
+    margin-left: 23px;
+    margin-right: 23px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: 20px;
+    padding-top: 14px;
+    padding-right: 41px;
+    padding-left: 41px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 321px;
+    min-height: 590px;
   }
 
   .u-section-1 .u-text-1 {
-    font-size: 2.25rem;
-    width: 340px;
+    font-size: 3rem;
+    margin-top: 144px;
+    margin-left: 27px;
+    margin-right: 27px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    padding: 12px 36px 14px;
   }
 }
