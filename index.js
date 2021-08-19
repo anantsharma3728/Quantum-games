@@ -13,8 +13,8 @@ mongoose.connect(process.env.MONGO_URL,
 }
 ).then(() => console.log("connection established"));
 
-const a= 123
+/*const a= 123
 for(let i=0; i<a; i++) {
    block = document.getElementById("i")
    
-}
+} */
